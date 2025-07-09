@@ -12,12 +12,7 @@ Score = (0.05 × (1 / log(number_of_tokens_generated + 2)))
       + (0.40 × correct_answer)
       + (0.15 × log(token_speed + 1))
 
-<pre> **Score Formula:** Score = 0.05 × (1 / log(number_of_tokens_generated + 2))     + 0.10 × context_length_utilized     + 0.15 × (explanation_score / 100)     + 0.15 × (1 / log(generation_time + 2))     + 0.40 × correct_answer     + 0.15 × log(token_speed + 1) </pre>
 
-![Score Equation](https://latex.codecogs.com/svg.image?\bg_white \text{Score}=0.05\cdot\left(\frac{1}{\log(\text{tokens}+2)}\right)%2B0.10\cdot\text{context}%2B0.15\cdot\left(\frac{\text{explanation}}{100}\right)%2B0.15\cdot\left(\frac{1}{\log(\text{time}+2)}\right)%2B0.40\cdot\text{correct}%2B0.15\cdot\log(\text{speed}%2B1))
-
-![Score Equation](https://latex.codecogs.com/svg.image?\dpi{150}&space;\bg_white&space;\text{Score}=0.05\cdot\left(\frac{1}{\log(\text{tokens}+2)}\right)%2B0.10\cdot\text{context}%2B0.15\cdot\left(\frac{\text{explanation}}{100}\right)%2B0.15\cdot\left(\frac{1}{\log(\text{time}+2)}\right)%2B0.40\cdot\text{correct}%2B0.15\cdot\log(\text{speed}%2B1))
-
-
+![Score Equation](https://latex.codecogs.com/svg.image?\text{Score}=0.05\cdot\left(\frac{1}{\log(\text{tokens}+2)}\right)%2B0.10\cdot\text{context}%2B0.15\cdot\left(\frac{\text{explanation}}{100}\right)%2B0.15\cdot\left(\frac{1}{\log(\text{time}+2)}\right)%2B0.40\cdot\text{correct}%2B0.15\cdot\log(\text{speed}%2B1))
 
 
