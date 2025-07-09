@@ -12,15 +12,9 @@ Score = (0.05 × (1 / log(number_of_tokens_generated + 2)))
       + (0.40 × correct_answer)
       + (0.15 × log(token_speed + 1))
 
-\begin{equation}
-\label{eq:score}
-\text{Score} = 
-0.05 \times \left( \frac{1}{\log(\text{number\_of\_tokens\_generated} + 2)} \right) +
-0.10 \times \text{context\_length\_utilized} +
-0.15 \times \left( \frac{\text{explanation\_score}}{100} \right) +
-0.15 \times \left( \frac{1}{\log(\text{generation\_time} + 2)} \right) +
-0.40 \times \text{correct\_answer} +
-0.15 \times \log(\text{token\_speed} + 1)
-\end{equation}
+<pre> **Score Formula:** Score = 0.05 × (1 / log(number_of_tokens_generated + 2))     + 0.10 × context_length_utilized     + 0.15 × (explanation_score / 100)     + 0.15 × (1 / log(generation_time + 2))     + 0.40 × correct_answer     + 0.15 × log(token_speed + 1) </pre>
+
+![Score Equation](https://latex.codecogs.com/svg.image?\text{Score}=0.05\cdot\left(\frac{1}{\log(\text{tokens}+2)}\right)%2B0.10\cdot\text{context}%2B0.15\cdot\left(\frac{\text{explanation}}{100}\right)%2B0.15\cdot\left(\frac{1}{\log(\text{time}+2)}\right)%2B0.40\cdot\text{correct}%2B0.15\cdot\log(\text{speed}%2B1))
+
 
 
