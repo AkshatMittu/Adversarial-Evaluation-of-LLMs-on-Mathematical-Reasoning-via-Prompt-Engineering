@@ -16,5 +16,8 @@ Score = (0.05 × (1 / log(number_of_tokens_generated + 2)))
 
 ![Score Equation](https://latex.codecogs.com/svg.image?\bg_white \text{Score}=0.05\cdot\left(\frac{1}{\log(\text{tokens}+2)}\right)%2B0.10\cdot\text{context}%2B0.15\cdot\left(\frac{\text{explanation}}{100}\right)%2B0.15\cdot\left(\frac{1}{\log(\text{time}+2)}\right)%2B0.40\cdot\text{correct}%2B0.15\cdot\log(\text{speed}%2B1))
 
+![Score Equation](https://latex.codecogs.com/svg.image?\dpi{150}&space;\bg_white&space;\text{Score}=0.05\cdot\left(\frac{1}{\log(\text{tokens}+2)}\right)%2B0.10\cdot\text{context}%2B0.15\cdot\left(\frac{\text{explanation}}{100}\right)%2B0.15\cdot\left(\frac{1}{\log(\text{time}+2)}\right)%2B0.40\cdot\text{correct}%2B0.15\cdot\log(\text{speed}%2B1))
+
+
 
 
