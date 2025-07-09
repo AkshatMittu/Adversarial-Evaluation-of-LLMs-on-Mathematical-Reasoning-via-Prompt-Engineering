@@ -11,3 +11,12 @@ Score = (0.05 × (1 / log(number_of_tokens_generated + 2)))
       + (0.15 × (1 / log(generation_time + 2)))
       + (0.40 × correct_answer)
       + (0.15 × log(token_speed + 1))
+
+$$
+\text{Score} = 0.05 \cdot \left( \frac{1}{\log(\text{number\_of\_tokens} + 2)} \right)
++ 0.10 \cdot \text{context\_length\_score}
++ 0.15 \cdot \left( \frac{\text{explain\_score}}{100} \right)
++ 0.15 \cdot \left( \frac{1}{\log(\text{generation\_time} + 2)} \right)
++ 0.40 \cdot \text{correct\_answer}
++ 0.15 \cdot \log(\text{token\_speed} + 1)
+$$
