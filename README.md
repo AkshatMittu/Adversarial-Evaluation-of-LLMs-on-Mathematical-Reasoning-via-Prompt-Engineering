@@ -13,6 +13,6 @@ Score = (0.05 × (1 / log(number_of_tokens_generated + 2)))
       + (0.15 × log(token_speed + 1))
 
 
-![Score Equation](https://latex.codecogs.com/svg.image?\bg{white}Score=(0.05 \times (1 / \log(\text{number\_of\_tokens\_generated} + 2))) + (0.10 \times \text{context\_length\_utilized}) + (0.15 \times (\text{explanation\_score} / 100)) + (0.15 \times (1 / \log(\text{generation\_time} + 2))) + (0.40 \times \text{correct\_answer}) + (0.15 \times \log(\text{token\_speed} + 1)))
+![Score Equation](https://latex.codecogs.com/svg.image?&bg=white& Score=(0.05 \times (1 / \log(\text{number\_of\_tokens\_generated} + 2))) + (0.10 \times \text{context\_length\_utilized}) + (0.15 \times (\text{explanation\_score} / 100)) + (0.15 \times (1 / \log(\text{generation\_time} + 2))) + (0.40 \times \text{correct\_answer}) + (0.15 \times \log(\text{token\_speed} + 1)))
 
 
